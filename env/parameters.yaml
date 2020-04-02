@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:whimseygold/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:whimseygold/pipelineUser:token
+  username: cloudbees-ci-cd-staging[bot]
+prow:
+  hmacToken: vault:whimseygold/prow:hmacToken
+segmentWriteKey: vault:whimseygold:segmentWriteKey
